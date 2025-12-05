@@ -34,7 +34,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ isDark }) => {
               target="_blank"
               rel="noopener noreferrer"
               className={`
-      group block rounded-[2rem] overflow-hidden transition-all duration-300 hover:-translate-y-2
+      group block rounded-4xl overflow-hidden transition-all duration-300 hover:-translate-y-2
       ${isDark ? "bg-[#18181b] text-white" : "bg-white text-black shadow-lg"}
     `}
             >

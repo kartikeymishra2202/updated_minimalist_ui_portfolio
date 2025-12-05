@@ -36,7 +36,7 @@ const Hero: React.FC<HeroProps> = ({ isDark }) => {
         <PenNibIcon className="w-full h-full" />
       </div>
       <div
-        className={`absolute right-[-10%] bottom-1/4 w-64 h-64 md:w-96 md:h-96 opacity-[0.03] rotate-[15deg] transition-colors duration-500 ${
+        className={`absolute right-[-10%] bottom-1/4 w-64 h-64 md:w-96 md:h-96 opacity-[0.03] rotate-15 transition-colors duration-500 ${
           isDark ? "text-white" : "text-black"
         }`}
       >

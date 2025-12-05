@@ -3,7 +3,7 @@ import {
   Linkedin,
   Instagram,
   Twitter,
-  Layout,
+ 
   Smartphone,
   Mail,
   Download,
@@ -258,7 +258,7 @@ const Contact: React.FC<ContactProps> = ({ isDark }) => {
 
             {/* EMAIL BOX */}
             <div
-              className={`mt-12 p-8 rounded-[2rem] border relative overflow-hidden group transition-colors ${
+              className={`mt-12 p-8 rounded-4xlborder relative overflow-hidden group transition-colors ${
                 isDark
                   ? "bg-[#1f1f22] border-gray-800 hover:border-gray-700"
                   : "bg-gray-50 border-gray-200 hover:border-gray-300"

@@ -32,14 +32,14 @@ const Testimonials: React.FC<TestimonialsProps> = ({ isDark }) => {
 
       <div className="relative w-full">
         <div
-          className={`absolute left-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-r pointer-events-none ${
+          className={`absolute left-0 top-0 bottom-0 w-32 z-10 bg-linear-to-r pointer-events-none ${
             isDark
               ? "from-[#09090b] to-transparent"
               : "from-white to-transparent"
           }`}
         />
         <div
-          className={`absolute right-0 top-0 bottom-0 w-32 z-10 bg-gradient-to-l pointer-events-none ${
+          className={`absolute right-0 top-0 bottom-0 w-32 z-10 bg-linear-to-r pointer-events-none ${
             isDark
               ? "from-[#09090b] to-transparent"
               : "from-white to-transparent"

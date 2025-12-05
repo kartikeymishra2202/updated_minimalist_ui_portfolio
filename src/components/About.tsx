@@ -1,11 +1,11 @@
 import React from "react";
 import {
   Layout,
-  Figma,
+  
   Monitor,
   Smartphone,
   CheckCircle2,
-  PenTool,
+ 
   Database,
   Code,
   Server,
